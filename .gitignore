@@ -3,11 +3,11 @@ node_modules/
 
 # React Native specific files
 # Builds for Android
-android/app/build/
-android/build/
+advanceRN/android/app/build/
+advanceRN/android/build/
 
 # Builds for iOS
-ios/Pods/
+advanceRN/ios/Pods/
 ios/build/
 ios/*.xcworkspace
 
@@ -78,5 +78,12 @@ fastlane/test_output/
 # Git-specific
 .git/
 
+.gradle/
 # Custom path for advanceRN-specific node_modules
 advanceRN/node_modules/
+advanceRN/advanceRN/node_modules/
+advanceRN/advanceRN/
+advanceRN/advanceRN/android/.gradle
+advanceRN/android/.gradle
+advanceRN/advanceRN/android/.gradle/
+advanceRN/android/app/

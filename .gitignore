@@ -1,0 +1,82 @@
+# Node.js dependencies
+node_modules/
+
+# React Native specific files
+# Builds for Android
+android/app/build/
+android/build/
+
+# Builds for iOS
+ios/Pods/
+ios/build/
+ios/*.xcworkspace
+
+# IDE and editor-related files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Babel and Metro bundler cache
+.babelrc
+metro.config.js
+.buckconfig
+watchmanconfig
+
+# Temporary cache
+.expo/
+.expo-shared/
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+coverage/
+lcov-report/
+
+# Packager
+.packager-config.json
+
+# React Native cache
+*.lock
+__generated__
+*.hbc
+build/
+
+# Bundled assets for deployment
+*.jsbundle
+*.map
+*.ipa
+*.apk
+
+# Build outputs
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Dependency directories
+**/node_modules/
+*.lock
+
+# Git-specific
+.git/
+
+# Custom path for advanceRN-specific node_modules
+advanceRN/node_modules/
